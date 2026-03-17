@@ -4,10 +4,9 @@
 
 print("Funciones en Python")
 
-def saludar_mi_funcion():#Firma del metodo
+def saludar_mi_funcion(mensaje):#Firma del metodo
   # Cuerpo de la funcion
-  print("Hola, esta es mi funcion")
+  print(f"El mensaje es: {mensaje}")
 
 # Programa principal
-saludar_mi_funcion()
-  
+saludar_mi_funcion("Hola a todos")
